@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>loginform</title>
+  <link href="loginform.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrap" class="wrap">
+  <form id="navlogin" name="navlogin" target="_top" autocomplete="off">
+
+    <div class="panel_item">
+      <div class="inputInfo">
+        <div class="panel_inner">
+          <div class="id_pw_wrap">
+            <div class="input_row" id="id_line">
+              <div class="icon_cell" id="id_cell">
+          <span class="icon_img" id="icon_id">
+            <span class="blind">아이디</span>
+          </span>
+              </div>
+              <input type="text" id="id" name="id" placeholder="아이디" title="아이디" class="input_text" maxlength="40">
+              <span role="button" class="btn_delete" id="id_clear">
+            <span class="icon_delete">
+              <span class="blind">삭제</span>
+            </span>
+          </span>
+            </div>
+            <div class="input_row" id="pw_line">
+              <div class="icon_cell" id="pw_cell">
+            <span class="icon_img" id="icon_pw">
+              <span class="blind">비밀번호</span>
+            </span>
+
+              </div>
+              <input type="password" id="pw" name="pw" placeholder="비밀번호" title="비밀번호" class="input_text" maxlength="16">
+              <span role="button" class="btn_delete" id="pw_clear">
+            <span class="pw_delete">
+              <span class="blind">삭제</span>
+            </span>
+          </span>
+            </div>
+          </div>
+          <div class="login_keep_wrap">
+            <div class="login_keep" id="login_keep">
+              <div class="keep_check">
+                <input type="checkbox" id="keep" name="nvlog" class="input_keep" value="off">
+                <label for="keep" class="keep_text">
+                  로그인 상태 유지
+                </label>
+              </div>
+            </div>
+            <div class="ip_check">
+              <div class="ip_text">IP보안</div>
+              <div class="radio_box">
+                <input type="radio" id="on" name="radio" value="on" checked><label for="on" class="radio_btn">on</label>
+                <input type="radio" id="off" name="radio" value="off"><label for="off" class="radio_btn">off</label>
+              </div>
+            </div>
+          </div>
+          <div class="btn_login_wrap">
+            <button type="submit" class="btn_login" id="login">
+              <div class="btn_text">로그인</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
